@@ -24,7 +24,7 @@ public:
         m_plane = vector2(0.0f, 0.66f);
 
         m_image = QImage(SCREEN_WIDTH, SCREEN_HEIGHT, QImage::Format_RGB32);
-        setWindowTitle(QString("Raycasting"));;
+        setWindowTitle(QString("Raycasting Qt Doom"));
     }
 
 protected:
